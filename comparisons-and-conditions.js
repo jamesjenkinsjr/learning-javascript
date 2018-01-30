@@ -51,3 +51,23 @@ if(someNumber === 100){
 } else {
     console.log('None of the others worked');
 }
+
+//Complex questions
+//More than 3 AND less than 10?
+//More than 10 OR less than 100?
+
+//Boolean operators
+//! -> NOT
+//&& -> AND
+//|| -> OR
+
+const name = 'Justin';
+if (name === 'Justin' || name === 'Matthew') {
+    console.log('The name is equal to Matthew or Justin');
+}
+if (name === 'Justin' && name == 'Matthew') {
+    console.log('This will never run -- const cannot be both values');
+}
+if (!name) {
+    console.log('This will never run because ! checks for false');
+}
