@@ -30,5 +30,11 @@ console.log("aNumber: ", typeof aNumber);
 console.log("anotherNumber: ", typeof anotherNumber);
 
 //Arrays
-const anArray = [];
+const anArray = [1, 2, 3, 4];
+console.log("anArray: ", anArray);
 console.log("anArray: ", typeof anArray);
+console.log("Items in anArray?", anArray.length);
+//Dot after anArray accesses property 'length' of the var
+const aStringArray = ["Cheese", "Bacon", "Eggs"];
+console.log("aStringArray: ", aStringArray);
+console.log("aStringArray: ", typeof aStringArray);
