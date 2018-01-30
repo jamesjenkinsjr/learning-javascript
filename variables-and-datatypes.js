@@ -51,3 +51,8 @@ console.log("aStringArray: ", typeof anObject);
 console.log("What is the color of 'anObject'?", anObject.color);
 console.log("What is the size of the object?", anObject.size);
 console.log("What is the 2nd topping?", anObject.toppings[1]);
+
+//Objects are e'r'where
+//Booleans
+const yes = true;
+const no = false;
