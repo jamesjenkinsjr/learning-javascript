@@ -38,3 +38,16 @@ console.log("Items in anArray?", anArray.length);
 const aStringArray = ["Cheese", "Bacon", "Eggs"];
 console.log("aStringArray: ", aStringArray);
 console.log("aStringArray: ", typeof aStringArray);
+
+//Objects
+let X = [];
+const anObject = {
+    'color': 'red', //key:value => key is 'color' the value is 'red'
+    size: 500, //keys are strings, but the quotes are implied
+    'toppings': ['pepperoni', 'cheese', 'jalapenos']
+};
+console.log("anObject: ", anObject);
+console.log("aStringArray: ", typeof anObject);
+console.log("What is the color of 'anObject'?", anObject.color);
+console.log("What is the size of the object?", anObject.size);
+console.log("What is the 2nd topping?", anObject.toppings[1]);
