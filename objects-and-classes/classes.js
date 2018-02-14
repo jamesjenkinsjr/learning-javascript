@@ -43,3 +43,21 @@ const t = new Truck();
 t.goMudding();
 t.drive();
 console.log(t);
+
+//Create a car class that is a vehicle
+//car should driveFast
+//car should have mileage prop
+//these in addition to Vehicle props and methods (color, stank, drive())
+
+class Car extends Vehicle {
+    constructor(color, stank, mileage) {
+        super(color, stank);
+        this.mileage = mileage;
+    }
+    driveFast() {
+        console.log('BUCKLE UP BUCKAROO');
+    }
+}
+const c = new Car('blue','sexy',12);
+console.log(c);
+c.driveFast();
